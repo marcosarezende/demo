@@ -1,14 +1,102 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "empresa": 
+    {
+      "id": "batata-espeteria",
+      "nome": "Batata Espeteria",
+      "categoria": "Petiscaria",
+      "imagePath": "assets/img/restaurants/breadbakery.png",
+      "descricao": "Batata Espeteria, casa especializada em petiscos e lanches, em Guaçuí-ES.",
+      "funcionamento": "Funcionamos de terça à domingo, a partir das 18:30h"
+    },
+  "categoriasMenu": [
+    {
+      "id": "porcoes-principais",
+      "nome": "Porções Principais",
+      "descricao": "Porções Especiais feitas na chapa e servidas na pedra sabão!",
+      "imagePath": "assets/img/foods/ceasar.png"
+    },
+    {
+      "id": "lanches-especiais",
+      "nome": "Lanches Especiais",
+      "descricao": "Hamburguers com carnes nobres!",
+      "imagePath": "assets/img/foods/burger.png"
+    },
+    {
+      "id": "lanches-artesanais",
+      "nome": "Lanches Artesanais",
+      "descricao": "Hamburguers com bifes artesanais!",
+      "imagePath": "assets/img/foods/burger.png"
+    },
+    {
+      "id": "lanches-empanados",
+      "nome": "Lanches Empanados",
+      "descricao": "Hamburguers de frango empanado!",
+      "imagePath": "assets/img/foods/burger.png"
+    },
+    {
+      "id": "frango-no-cesto",
+      "nome": "Frango no Cesto",
+      "descricao": "Tradicional franguinho frito, acompanhado com fritas!",
+      "imagePath": "assets/img/foods/fries.png"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "itemMenu": [
+    {
+      "id": "mix-espeteria",
+      "imagePath": "assets/img/foods/donut.png",
+      "nome": "Mix Espeteria",
+      "descricao": "Quatro tipos de carnes servidas com acompanhamento",
+      "preco": 49.9,
+      "categoriasMenuId": "porcoes-principais"
+    },
+    {
+      "id": "carne-com-fritas",
+      "imagePath": "assets/img/foods/donut.png",
+      "nome": "Carne com Fritas",
+      "descricao": "Carne de sua preferência com acompanhamento",
+      "preco": 49.9,
+      "categoriasMenuId": "porcoes-principais"
+    },
+    {
+      "id": "picanha-na-chapa",
+      "imagePath": "assets/img/foods/donut.png",
+      "nome": "Picanha na Chapa",
+      "descricao": "Picanha especial com acompanhamento",
+      "preco": 49.9,
+      "categoriasMenuId": "porcoes-principais"
+    },
+    {
+      "id": "artesanal-padrao",
+      "imagePath": "assets/img/foods/burger.png",
+      "nome": "Artesanal Padrão",
+      "descricao": "Hamburguer com bife artesanal com molho especial",
+      "preco": 6.7,
+      "categoriasMenuId": "lanches-artesansais"
+    },
+    {
+      "id": "artesanal-big",
+      "imagePath": "assets/img/foods/burger.png",
+      "nome": "Artesanal Big",
+      "descricao": "Hamburguer com bife artesanal de 180g com molho especial",
+      "preco": 6.7,
+      "categoriasMenuId": "lanches-artesansais"
+    },
+    {
+      "id": "especial-picanha",
+      "imagePath": "assets/img/foods/burger.png",
+      "nome": "Especial Picanha",
+      "descricao": "Pedaços de picanha, molho especial e cebola roxa caramelizada.",
+      "preco": 18.5,
+      "categoriasMenuId": "lanches-especiais"
+    },
+    {
+      "id": "frango-no-cesto",
+      "imagePath": "assets/img/foods/fries.png",
+      "nome": "Frango no Cesto",
+      "descricao": "Tradicional franguinho frito com fritas",
+      "preco": 27.9,
+      "categoriasMenuId": "frango-no-cesto"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "pedidos": []
 }
